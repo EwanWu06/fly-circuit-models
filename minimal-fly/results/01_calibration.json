@@ -1,0 +1,131 @@
+{
+  "seeds": "A (stream 1)",
+  "noise_sigma": 2.8227288726858335,
+  "mn_drive": 2.3942184448242188,
+  "mn_rate_hz": 39.99583333333333,
+  "orn_gain": 5.7389068603515625,
+  "orn_rate_at_k_hz": 49.99791666666667,
+  "grids": [
+    {
+      "antenna_sep_mm": 2.5,
+      "rows": [
+        {
+          "n_syn": 20,
+          "successes": 16,
+          "success_rate": 0.08,
+          "success_ci": [
+            0.049840585889759974,
+            0.12598948826714396
+          ]
+        },
+        {
+          "n_syn": 40,
+          "successes": 18,
+          "success_rate": 0.09,
+          "success_ci": [
+            0.05768744886219316,
+            0.13776571876716542
+          ]
+        },
+        {
+          "n_syn": 80,
+          "successes": 30,
+          "success_rate": 0.15,
+          "success_ci": [
+            0.10713593562241995,
+            0.20605579284166659
+          ]
+        },
+        {
+          "n_syn": 160,
+          "successes": 63,
+          "success_rate": 0.315,
+          "success_ci": [
+            0.2546232099022851,
+            0.3823495608573036
+          ]
+        },
+        {
+          "n_syn": 320,
+          "successes": 109,
+          "success_rate": 0.545,
+          "success_ci": [
+            0.47578611372488105,
+            0.6125178069011651
+          ]
+        },
+        {
+          "n_syn": 640,
+          "successes": 128,
+          "success_rate": 0.64,
+          "success_ci": [
+            0.5714152816600309,
+            0.7033080269543346
+          ]
+        }
+      ]
+    },
+    {
+      "antenna_sep_mm": 5.0,
+      "rows": [
+        {
+          "n_syn": 20,
+          "successes": 15,
+          "success_rate": 0.075,
+          "success_ci": [
+            0.04597491718438201,
+            0.12004361023629456
+          ]
+        },
+        {
+          "n_syn": 40,
+          "successes": 16,
+          "success_rate": 0.08,
+          "success_ci": [
+            0.049840585889759974,
+            0.12598948826714396
+          ]
+        },
+        {
+          "n_syn": 80,
+          "successes": 35,
+          "success_rate": 0.175,
+          "success_ci": [
+            0.12860515066273331,
+            0.23364431148248993
+          ]
+        },
+        {
+          "n_syn": 160,
+          "successes": 138,
+          "success_rate": 0.69,
+          "success_ci": [
+            0.6228282243374195,
+            0.750010551639219
+          ]
+        },
+        {
+          "n_syn": 320,
+          "successes": 183,
+          "success_rate": 0.915,
+          "success_ci": [
+            0.8681041292843443,
+            0.9462542498225244
+          ]
+        },
+        {
+          "n_syn": 640,
+          "successes": 190,
+          "success_rate": 0.95,
+          "success_ci": [
+            0.9104218518612239,
+            0.972617354399236
+          ]
+        }
+      ]
+    }
+  ],
+  "n_syn": 320,
+  "antenna_sep_mm": 5.0,
+  "baseline_passed": true
+}

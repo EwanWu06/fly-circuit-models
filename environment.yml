@@ -1,0 +1,11 @@
+name: fly-circuits
+channels: [conda-forge]
+# Exact versions the results in both projects were produced with.
+# pandas and pyarrow are needed only by escape-circuit.
+dependencies:
+  - python=3.11.15
+  - numpy=2.4.5
+  - pandas=3.0.3
+  - pyarrow=24.0.0
+  - matplotlib=3.10.9
+  - pytest=9.0.3

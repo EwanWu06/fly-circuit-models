@@ -1,0 +1,19 @@
+{
+  "ache2019_fafb_reference": {
+    "lc4_cells": 55,
+    "lc4_synapses": 2442,
+    "lplc2_cells": 108,
+    "lplc2_synapses": 1366
+  },
+  "extraction_stats": {
+    "edges_before_nt_filter": 7784,
+    "edges_dropped_untypeable": 0,
+    "dropped_fraction": 0.0
+  },
+  "n_neurons": 364,
+  "n_edges": 7784,
+  "lc4_cells_right": 55,
+  "lc4_synapses_right": 2580,
+  "lplc2_cells_right": 84,
+  "lplc2_synapses_right": 2200
+}

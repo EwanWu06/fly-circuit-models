@@ -1,0 +1,64 @@
+{
+  "sigma_deg": 5.0,
+  "theta_at_spike_by_rv": {
+    "10.0": 42.82514010289544,
+    "20.0": 41.27680382742331,
+    "40.0": 37.39199689972387,
+    "80.0": 35.25085342666035
+  },
+  "peak_time_by_rv": {
+    "10.0": 0.0,
+    "20.0": 0.0,
+    "40.0": 0.0,
+    "80.0": 0.0
+  },
+  "lc4_contribution_by_rv": {
+    "10.0": 0.0,
+    "20.0": 0.0,
+    "40.0": 0.0,
+    "80.0": 0.0
+  },
+  "lplc2_contribution_by_rv": {
+    "10.0": 0.0,
+    "20.0": 0.0,
+    "40.0": 0.0,
+    "80.0": 0.0
+  },
+  "binocular_index": 0.0,
+  "B1_passed": true,
+  "B2_passed": false,
+  "B3_passed": false,
+  "B4_passed": true,
+  "sigma_sensitivity": {
+    "0.6x": {
+      "sigma_deg": 3.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": true
+    },
+    "0.8x": {
+      "sigma_deg": 4.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": true
+    },
+    "1.0x": {
+      "sigma_deg": 5.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": true
+    },
+    "1.2x": {
+      "sigma_deg": 6.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": true
+    },
+    "1.4x": {
+      "sigma_deg": 7.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": true
+    }
+  }
+}

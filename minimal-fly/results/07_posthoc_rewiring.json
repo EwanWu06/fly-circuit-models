@@ -1,0 +1,34 @@
+{
+  "label": "post hoc, not registered",
+  "designed_isomorphs": [
+    224,
+    303,
+    501,
+    582
+  ],
+  "isomorph_success": [
+    0.93,
+    0.95,
+    0.94,
+    0.9
+  ],
+  "best_other_approacher": {
+    "index": 102,
+    "success": 0.81,
+    "wiring": "ORN_L->PN_L; ORN_L->PN_R; ORN_R->PN_R; ORN_R->MN_L; PN_L->MN_R; PN_R->IN_R; IN_L-|PN_L; IN_R-|IN_L",
+    "speed": 15.830068549024453,
+    "time_median": 9.138200000000001
+  },
+  "approach_total": 424,
+  "approach_never_arrive": 321,
+  "approach_at_least_20pct": 100,
+  "avoid_total": 426,
+  "avoid_at_least_20pct": 54,
+  "best_avoider": {
+    "index": 821,
+    "success": 0.85,
+    "wiring": "ORN_L->IN_L; ORN_L->MN_L; ORN_R->PN_L; ORN_R->PN_R; PN_L->MN_R; PN_R->PN_L; IN_L-|IN_R; IN_R-|PN_R",
+    "speed": 25.62878139817898,
+    "time_median": 48.1381
+  }
+}

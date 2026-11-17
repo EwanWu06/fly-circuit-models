@@ -1,0 +1,43 @@
+{
+  "post_hoc": true,
+  "note": "POST HOC re-check; not part of the pre-registration. Changes nothing. See the script's docstring.",
+  "rv_ms": 10.0,
+  "input_jitter": false,
+  "n_visual": 311,
+  "gain_in_use_mv_per_ms": 8.0,
+  "recorded_counts_in_config": {
+    "3.0": 186,
+    "5.0": 293,
+    "6.0": 304,
+    "8.0": 311
+  },
+  "recruited_by_sigma": {
+    "15.0": {
+      "1.0": 0,
+      "2.0": 0,
+      "3.0": 186,
+      "4.0": 229,
+      "5.0": 293,
+      "6.0": 304,
+      "7.0": 311,
+      "8.0": 311,
+      "9.0": 311
+    },
+    "5.0": {
+      "1.0": 0,
+      "2.0": 0,
+      "3.0": 0,
+      "4.0": 0,
+      "5.0": 126,
+      "6.0": 311,
+      "7.0": 311,
+      "8.0": 311,
+      "9.0": 311
+    }
+  },
+  "smallest_gain_recruiting_all_by_sigma": {
+    "15.0": 7.0,
+    "5.0": 6.0
+  },
+  "recorded_counts_reproduced_at_sigma_15": true
+}

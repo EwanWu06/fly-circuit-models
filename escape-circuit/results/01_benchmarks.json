@@ -1,0 +1,1517 @@
+{
+  "sigma_deg": 5.0,
+  "theta_at_spike_by_rv": {
+    "10.0": 33.71629346751902,
+    "20.0": 37.21618306809594,
+    "40.0": 35.32982050768262,
+    "80.0": 34.30432220933967
+  },
+  "peak_time_by_rv": {
+    "10.0": 81.19999999999538,
+    "20.0": 169.0999999999904,
+    "40.0": 331.5000000000754,
+    "80.0": 655.100000000149
+  },
+  "lc4_contribution_by_rv": {
+    "10.0": 5.7270617514547055,
+    "20.0": 4.850889109252513,
+    "40.0": 0.0,
+    "80.0": 0.0
+  },
+  "lplc2_contribution_by_rv": {
+    "10.0": 5.294135097910086,
+    "20.0": 5.731635307621829,
+    "40.0": 4.898101935940204,
+    "80.0": 4.167232040728209
+  },
+  "binocular_index": 0.8108637840198271,
+  "peak_time_lplc2_silenced_ms": 0.0,
+  "max_depolarisation_lplc2_silenced_mv": 0.0,
+  "binocular_depolarisation_mv": {
+    "both": 5.1247489204301075,
+    "left": 3.2238901668944493,
+    "right": 3.0962205858935903
+  },
+  "B1_passed": true,
+  "B2_passed": false,
+  "B3_passed": true,
+  "B4_passed": true,
+  "per_gf": {
+    "intact_by_rv": {
+      "10.0": {
+        "L": {
+          "first_spike_step": 815,
+          "max_depolarisation_own_window_mv": 6.3519171245364845,
+          "max_depolarisation_shared_window_mv": 5.312707742023754
+        },
+        "R": {
+          "first_spike_step": 813,
+          "max_depolarisation_own_window_mv": 6.458522021578496,
+          "max_depolarisation_shared_window_mv": 6.458522021578496
+        }
+      },
+      "20.0": {
+        "L": {
+          "first_spike_step": 1692,
+          "max_depolarisation_own_window_mv": 6.3063900020629475,
+          "max_depolarisation_shared_window_mv": 6.3063900020629475
+        },
+        "R": {
+          "first_spike_step": 1697,
+          "max_depolarisation_own_window_mv": 6.591598415968534,
+          "max_depolarisation_shared_window_mv": 5.080672006831172
+        }
+      },
+      "40.0": {
+        "L": {
+          "first_spike_step": 3316,
+          "max_depolarisation_own_window_mv": 6.237429255734085,
+          "max_depolarisation_shared_window_mv": 6.237429255734085
+        },
+        "R": {
+          "first_spike_step": 3317,
+          "max_depolarisation_own_window_mv": 6.268384571207484,
+          "max_depolarisation_shared_window_mv": 5.874756636756125
+        }
+      },
+      "80.0": {
+        "L": {
+          "first_spike_step": 6552,
+          "max_depolarisation_own_window_mv": 6.22187277348786,
+          "max_depolarisation_shared_window_mv": 6.22187277348786
+        },
+        "R": {
+          "first_spike_step": 6570,
+          "max_depolarisation_own_window_mv": 6.369099585300702,
+          "max_depolarisation_shared_window_mv": 2.14556121324631
+        }
+      }
+    },
+    "lc4_only_by_rv": {
+      "10.0": {
+        "L": {
+          "first_spike_step": 810,
+          "max_depolarisation_own_window_mv": 6.042499298024502,
+          "max_depolarisation_shared_window_mv": 6.042499298024502
+        },
+        "R": {
+          "first_spike_step": 812,
+          "max_depolarisation_own_window_mv": 6.428838130395107,
+          "max_depolarisation_shared_window_mv": 5.411624204884909
+        }
+      },
+      "20.0": {
+        "L": {
+          "first_spike_step": 1800,
+          "max_depolarisation_own_window_mv": 6.533311416737149,
+          "max_depolarisation_shared_window_mv": 6.533311416737149
+        },
+        "R": {
+          "first_spike_step": 1812,
+          "max_depolarisation_own_window_mv": 6.564832014483706,
+          "max_depolarisation_shared_window_mv": 3.1684668017678774
+        }
+      },
+      "40.0": {
+        "L": {
+          "first_spike_step": null,
+          "max_depolarisation_own_window_mv": 0.0,
+          "max_depolarisation_shared_window_mv": 0.0
+        },
+        "R": {
+          "first_spike_step": null,
+          "max_depolarisation_own_window_mv": 0.0,
+          "max_depolarisation_shared_window_mv": 0.0
+        }
+      },
+      "80.0": {
+        "L": {
+          "first_spike_step": null,
+          "max_depolarisation_own_window_mv": 0.0,
+          "max_depolarisation_shared_window_mv": 0.0
+        },
+        "R": {
+          "first_spike_step": null,
+          "max_depolarisation_own_window_mv": 0.0,
+          "max_depolarisation_shared_window_mv": 0.0
+        }
+      }
+    },
+    "lplc2_only_by_rv": {
+      "10.0": {
+        "L": {
+          "first_spike_step": 855,
+          "max_depolarisation_own_window_mv": 6.541400664983428,
+          "max_depolarisation_shared_window_mv": 6.541400664983428
+        },
+        "R": {
+          "first_spike_step": 865,
+          "max_depolarisation_own_window_mv": 6.755456405978919,
+          "max_depolarisation_shared_window_mv": 4.0468695308367515
+        }
+      },
+      "20.0": {
+        "L": {
+          "first_spike_step": 1690,
+          "max_depolarisation_own_window_mv": 6.402274992306992,
+          "max_depolarisation_shared_window_mv": 5.046196763051462
+        },
+        "R": {
+          "first_spike_step": 1686,
+          "max_depolarisation_own_window_mv": 6.417073852192189,
+          "max_depolarisation_shared_window_mv": 6.417073852192189
+        }
+      },
+      "40.0": {
+        "L": {
+          "first_spike_step": 3312,
+          "max_depolarisation_own_window_mv": 6.3767531013249865,
+          "max_depolarisation_shared_window_mv": 6.3767531013249865
+        },
+        "R": {
+          "first_spike_step": 3319,
+          "max_depolarisation_own_window_mv": 6.31888581116597,
+          "max_depolarisation_shared_window_mv": 3.4194507705554216
+        }
+      },
+      "80.0": {
+        "L": {
+          "first_spike_step": 6550,
+          "max_depolarisation_own_window_mv": 6.2423683743948,
+          "max_depolarisation_shared_window_mv": 6.2423683743948
+        },
+        "R": {
+          "first_spike_step": 6564,
+          "max_depolarisation_own_window_mv": 6.540066981752574,
+          "max_depolarisation_shared_window_mv": 2.092095707061617
+        }
+      }
+    },
+    "b3_lplc2_silenced": {
+      "L": {
+        "first_spike_step": null,
+        "max_depolarisation_own_window_mv": 0.0,
+        "max_depolarisation_shared_window_mv": 0.0
+      },
+      "R": {
+        "first_spike_step": null,
+        "max_depolarisation_own_window_mv": 0.0,
+        "max_depolarisation_shared_window_mv": 0.0
+      }
+    },
+    "b4": {
+      "both": {
+        "L": {
+          "first_spike_step": 3326,
+          "max_depolarisation_own_window_mv": 6.275761621716754,
+          "max_depolarisation_shared_window_mv": 3.882284720043934
+        },
+        "R": {
+          "first_spike_step": 3317,
+          "max_depolarisation_own_window_mv": 6.367213120816288,
+          "max_depolarisation_shared_window_mv": 6.367213120816288
+        }
+      },
+      "left": {
+        "L": {
+          "first_spike_step": 3313,
+          "max_depolarisation_own_window_mv": 6.447780333788899,
+          "max_depolarisation_shared_window_mv": 6.447780333788899
+        },
+        "R": {
+          "first_spike_step": null,
+          "max_depolarisation_own_window_mv": 0.0,
+          "max_depolarisation_shared_window_mv": 0.0
+        }
+      },
+      "right": {
+        "L": {
+          "first_spike_step": null,
+          "max_depolarisation_own_window_mv": 0.0,
+          "max_depolarisation_shared_window_mv": 0.0
+        },
+        "R": {
+          "first_spike_step": 3316,
+          "max_depolarisation_own_window_mv": 6.1924411717871735,
+          "max_depolarisation_shared_window_mv": 6.1924411717871735
+        }
+      }
+    }
+  },
+  "sigma_sensitivity": {
+    "0.6x": {
+      "sigma_deg": 3.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": true
+    },
+    "0.8x": {
+      "sigma_deg": 4.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": false
+    },
+    "1.0x": {
+      "sigma_deg": 5.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": true
+    },
+    "1.2x": {
+      "sigma_deg": 6.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": true
+    },
+    "1.4x": {
+      "sigma_deg": 7.0,
+      "B1_passed": true,
+      "B2_passed": false,
+      "B4_passed": true
+    }
+  },
+  "seed_sensitivity": {
+    "20260923": {
+      "B1_passed": true,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": false
+    },
+    "20260924": {
+      "B1_passed": true,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": false
+    },
+    "20260925": {
+      "B1_passed": true,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": false
+    },
+    "20260926": {
+      "B1_passed": true,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": true
+    },
+    "20260927": {
+      "B1_passed": true,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": true
+    }
+  },
+  "gain_sensitivity": {
+    "0.6x": {
+      "gain_mv_per_ms": 4.8,
+      "sigma_deg": 5.0,
+      "theta_at_spike_by_rv": {
+        "10.0": 46.63447773160152,
+        "20.0": 39.63361619733964,
+        "40.0": 37.48050579440112,
+        "80.0": 36.09743738758682
+      },
+      "peak_time_by_rv": {
+        "10.0": 90.99999999999483,
+        "20.0": 172.99999999999017,
+        "40.0": 339.2000000000771,
+        "80.0": 668.8000000001521
+      },
+      "lc4_contribution_by_rv": {
+        "10.0": 6.206522456332493,
+        "20.0": 0.0,
+        "40.0": 0.0,
+        "80.0": 0.0
+      },
+      "lplc2_contribution_by_rv": {
+        "10.0": 0.0,
+        "20.0": 5.612911577915128,
+        "40.0": 5.8472435635374325,
+        "80.0": 5.0321215736919385
+      },
+      "binocular_index": 0.7359769695338083,
+      "peak_time_lplc2_silenced_ms": 0.0,
+      "max_depolarisation_lplc2_silenced_mv": 0.0,
+      "binocular_depolarisation_mv": {
+        "both": 4.68813791372564,
+        "left": 3.1295323950857963,
+        "right": 3.24041952976215
+      },
+      "B1_passed": true,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": true,
+      "per_gf": {
+        "intact_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 911,
+              "max_depolarisation_own_window_mv": 6.630006115743939,
+              "max_depolarisation_shared_window_mv": 6.630006115743939
+            },
+            "R": {
+              "first_spike_step": 914,
+              "max_depolarisation_own_window_mv": 6.316662254531387,
+              "max_depolarisation_shared_window_mv": 5.346478978773227
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1735,
+              "max_depolarisation_own_window_mv": 6.586672621961199,
+              "max_depolarisation_shared_window_mv": 5.19891403807744
+            },
+            "R": {
+              "first_spike_step": 1731,
+              "max_depolarisation_own_window_mv": 6.418685049191993,
+              "max_depolarisation_shared_window_mv": 6.418685049191993
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3397,
+              "max_depolarisation_own_window_mv": 6.494669205889103,
+              "max_depolarisation_shared_window_mv": 4.866481341288676
+            },
+            "R": {
+              "first_spike_step": 3393,
+              "max_depolarisation_own_window_mv": 6.293190768236542,
+              "max_depolarisation_shared_window_mv": 6.293190768236542
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6690,
+              "max_depolarisation_own_window_mv": 6.20763637795298,
+              "max_depolarisation_shared_window_mv": 5.801365937878536
+            },
+            "R": {
+              "first_spike_step": 6689,
+              "max_depolarisation_own_window_mv": 6.336433596417393,
+              "max_depolarisation_shared_window_mv": 6.336433596417393
+            }
+          }
+        },
+        "lc4_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 911,
+              "max_depolarisation_own_window_mv": 6.349464926333681,
+              "max_depolarisation_shared_window_mv": 6.349464926333681
+            },
+            "R": {
+              "first_spike_step": 912,
+              "max_depolarisation_own_window_mv": 6.485589505483546,
+              "max_depolarisation_shared_window_mv": 6.063579986331298
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          }
+        },
+        "lplc2_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1729,
+              "max_depolarisation_own_window_mv": 6.302113250913884,
+              "max_depolarisation_shared_window_mv": 6.302113250913884
+            },
+            "R": {
+              "first_spike_step": 1734,
+              "max_depolarisation_own_window_mv": 6.479463934169445,
+              "max_depolarisation_shared_window_mv": 4.923709904916365
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3386,
+              "max_depolarisation_own_window_mv": 6.31315778045613,
+              "max_depolarisation_shared_window_mv": 6.31315778045613
+            },
+            "R": {
+              "first_spike_step": 3389,
+              "max_depolarisation_own_window_mv": 6.43293486925527,
+              "max_depolarisation_shared_window_mv": 5.3813293466187275
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6694,
+              "max_depolarisation_own_window_mv": 6.319417575136519,
+              "max_depolarisation_shared_window_mv": 3.9195643026313647
+            },
+            "R": {
+              "first_spike_step": 6688,
+              "max_depolarisation_own_window_mv": 6.144678844752512,
+              "max_depolarisation_shared_window_mv": 6.144678844752512
+            }
+          }
+        },
+        "b3_lplc2_silenced": {
+          "L": {
+            "first_spike_step": null,
+            "max_depolarisation_own_window_mv": 0.0,
+            "max_depolarisation_shared_window_mv": 0.0
+          },
+          "R": {
+            "first_spike_step": null,
+            "max_depolarisation_own_window_mv": 0.0,
+            "max_depolarisation_shared_window_mv": 0.0
+          }
+        },
+        "b4": {
+          "both": {
+            "L": {
+              "first_spike_step": 3385,
+              "max_depolarisation_own_window_mv": 6.439342912638423,
+              "max_depolarisation_shared_window_mv": 6.439342912638423
+            },
+            "R": {
+              "first_spike_step": 3398,
+              "max_depolarisation_own_window_mv": 6.494560212144982,
+              "max_depolarisation_shared_window_mv": 2.9369329148128642
+            }
+          },
+          "left": {
+            "L": {
+              "first_spike_step": 3386,
+              "max_depolarisation_own_window_mv": 6.259064790171593,
+              "max_depolarisation_shared_window_mv": 6.259064790171593
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "right": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": 3396,
+              "max_depolarisation_own_window_mv": 6.480839059524307,
+              "max_depolarisation_shared_window_mv": 6.480839059524307
+            }
+          }
+        }
+      }
+    },
+    "0.8x": {
+      "gain_mv_per_ms": 6.4,
+      "sigma_deg": 5.0,
+      "theta_at_spike_by_rv": {
+        "10.0": 38.17272399042383,
+        "20.0": 37.92917689135162,
+        "40.0": 36.22159722683486,
+        "80.0": 35.08092535237465
+      },
+      "peak_time_by_rv": {
+        "10.0": 85.29999999999515,
+        "20.0": 170.29999999999032,
+        "40.0": 334.8000000000761,
+        "80.0": 661.2000000001503
+      },
+      "lc4_contribution_by_rv": {
+        "10.0": 3.609087639791319,
+        "20.0": 4.615837367630931,
+        "40.0": 0.0,
+        "80.0": 0.0
+      },
+      "lplc2_contribution_by_rv": {
+        "10.0": 4.959868472476359,
+        "20.0": 5.301335433148736,
+        "40.0": 5.5757466145430215,
+        "80.0": 6.120839117845861
+      },
+      "binocular_index": 0.6156747717429801,
+      "peak_time_lplc2_silenced_ms": 0.0,
+      "max_depolarisation_lplc2_silenced_mv": 0.0,
+      "binocular_depolarisation_mv": {
+        "both": 3.897349962636426,
+        "left": 3.169610721047725,
+        "right": 3.160598248865071
+      },
+      "B1_passed": true,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": true,
+      "per_gf": {
+        "intact_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 859,
+              "max_depolarisation_own_window_mv": 6.217368166968981,
+              "max_depolarisation_shared_window_mv": 4.496671966243802
+            },
+            "R": {
+              "first_spike_step": 854,
+              "max_depolarisation_own_window_mv": 5.847627924373562,
+              "max_depolarisation_shared_window_mv": 5.847627924373562
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1704,
+              "max_depolarisation_own_window_mv": 6.234820594077291,
+              "max_depolarisation_shared_window_mv": 6.234820594077291
+            },
+            "R": {
+              "first_spike_step": 1719,
+              "max_depolarisation_own_window_mv": 6.469425213087632,
+              "max_depolarisation_shared_window_mv": 2.8191304108353847
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3349,
+              "max_depolarisation_own_window_mv": 6.357806700068018,
+              "max_depolarisation_shared_window_mv": 6.357806700068018
+            },
+            "R": {
+              "first_spike_step": 3351,
+              "max_depolarisation_own_window_mv": 6.364305889843791,
+              "max_depolarisation_shared_window_mv": 5.358509732245416
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6613,
+              "max_depolarisation_own_window_mv": 6.101727494963377,
+              "max_depolarisation_shared_window_mv": 6.101727494963377
+            },
+            "R": {
+              "first_spike_step": 6619,
+              "max_depolarisation_own_window_mv": 6.450312702978657,
+              "max_depolarisation_shared_window_mv": 3.8598946104761325
+            }
+          }
+        },
+        "lc4_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 853,
+              "max_depolarisation_own_window_mv": 6.4008137276215535,
+              "max_depolarisation_shared_window_mv": 6.4008137276215535
+            },
+            "R": {
+              "first_spike_step": 871,
+              "max_depolarisation_own_window_mv": 6.315569326843303,
+              "max_depolarisation_shared_window_mv": 0.8173615519610848
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1869,
+              "max_depolarisation_own_window_mv": 6.361172280596179,
+              "max_depolarisation_shared_window_mv": 6.361172280596179
+            },
+            "R": {
+              "first_spike_step": 1884,
+              "max_depolarisation_own_window_mv": 6.492394725375085,
+              "max_depolarisation_shared_window_mv": 2.87050245466569
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          }
+        },
+        "lplc2_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 878,
+              "max_depolarisation_own_window_mv": 6.352205162946291,
+              "max_depolarisation_shared_window_mv": 3.3347560336642275
+            },
+            "R": {
+              "first_spike_step": 870,
+              "max_depolarisation_own_window_mv": 6.584980911288483,
+              "max_depolarisation_shared_window_mv": 6.584980911288483
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1699,
+              "max_depolarisation_own_window_mv": 6.328769438515181,
+              "max_depolarisation_shared_window_mv": 6.328769438515181
+            },
+            "R": {
+              "first_spike_step": 1706,
+              "max_depolarisation_own_window_mv": 6.538197870188519,
+              "max_depolarisation_shared_window_mv": 4.273901427782292
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3351,
+              "max_depolarisation_own_window_mv": 6.177226055817059,
+              "max_depolarisation_shared_window_mv": 6.177226055817059
+            },
+            "R": {
+              "first_spike_step": 3355,
+              "max_depolarisation_own_window_mv": 6.399272443647682,
+              "max_depolarisation_shared_window_mv": 4.974267173268991
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6608,
+              "max_depolarisation_own_window_mv": 6.649428139538351,
+              "max_depolarisation_shared_window_mv": 6.649428139538351
+            },
+            "R": {
+              "first_spike_step": 6611,
+              "max_depolarisation_own_window_mv": 6.621247472204573,
+              "max_depolarisation_shared_window_mv": 5.5922500961533785
+            }
+          }
+        },
+        "b3_lplc2_silenced": {
+          "L": {
+            "first_spike_step": null,
+            "max_depolarisation_own_window_mv": 0.0,
+            "max_depolarisation_shared_window_mv": 0.0
+          },
+          "R": {
+            "first_spike_step": null,
+            "max_depolarisation_own_window_mv": 0.0,
+            "max_depolarisation_shared_window_mv": 0.0
+          }
+        },
+        "b4": {
+          "both": {
+            "L": {
+              "first_spike_step": 3368,
+              "max_depolarisation_own_window_mv": 6.681606706659188,
+              "max_depolarisation_shared_window_mv": 1.4515003455765196
+            },
+            "R": {
+              "first_spike_step": 3348,
+              "max_depolarisation_own_window_mv": 6.343199579696332,
+              "max_depolarisation_shared_window_mv": 6.343199579696332
+            }
+          },
+          "left": {
+            "L": {
+              "first_spike_step": 3356,
+              "max_depolarisation_own_window_mv": 6.33922144209545,
+              "max_depolarisation_shared_window_mv": 6.33922144209545
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "right": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": 3349,
+              "max_depolarisation_own_window_mv": 6.321196497730149,
+              "max_depolarisation_shared_window_mv": 6.321196497730149
+            }
+          }
+        }
+      }
+    },
+    "1.0x": {
+      "gain_mv_per_ms": 8.0,
+      "sigma_deg": 5.0,
+      "theta_at_spike_by_rv": {
+        "10.0": 34.304322209316474,
+        "20.0": 36.86929830974623,
+        "40.0": 35.3826557804035,
+        "80.0": 34.279424076135136
+      },
+      "peak_time_by_rv": {
+        "10.0": 81.79999999999535,
+        "20.0": 168.49999999999042,
+        "40.0": 331.7000000000754,
+        "80.0": 654.9000000001489
+      },
+      "lc4_contribution_by_rv": {
+        "10.0": 4.078617064278816,
+        "20.0": 4.87668147126417,
+        "40.0": 0.0,
+        "80.0": 0.0
+      },
+      "lplc2_contribution_by_rv": {
+        "10.0": 6.044551178979489,
+        "20.0": 4.745029204045181,
+        "40.0": 5.970576890695817,
+        "80.0": 3.845857962943036
+      },
+      "binocular_index": 0.8736313563427938,
+      "peak_time_lplc2_silenced_ms": 0.0,
+      "max_depolarisation_lplc2_silenced_mv": 0.0,
+      "binocular_depolarisation_mv": {
+        "both": 5.643433403386098,
+        "left": 3.223239427082767,
+        "right": 3.2365028456885625
+      },
+      "B1_passed": true,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": true,
+      "per_gf": {
+        "intact_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 819,
+              "max_depolarisation_own_window_mv": 6.147789207364788,
+              "max_depolarisation_shared_window_mv": 6.147789207364788
+            },
+            "R": {
+              "first_spike_step": 834,
+              "max_depolarisation_own_window_mv": 6.213831897691193,
+              "max_depolarisation_shared_window_mv": 2.31558283448544
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1686,
+              "max_depolarisation_own_window_mv": 6.295499931888905,
+              "max_depolarisation_shared_window_mv": 6.295499931888905
+            },
+            "R": {
+              "first_spike_step": 1689,
+              "max_depolarisation_own_window_mv": 6.487987064120382,
+              "max_depolarisation_shared_window_mv": 5.50913404694905
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3333,
+              "max_depolarisation_own_window_mv": 6.611920994337943,
+              "max_depolarisation_shared_window_mv": 3.182612981307102
+            },
+            "R": {
+              "first_spike_step": 3318,
+              "max_depolarisation_own_window_mv": 6.457827458360391,
+              "max_depolarisation_shared_window_mv": 6.457827458360391
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6550,
+              "max_depolarisation_own_window_mv": 6.279073782170535,
+              "max_depolarisation_shared_window_mv": 6.279073782170535
+            },
+            "R": {
+              "first_spike_step": 6557,
+              "max_depolarisation_own_window_mv": 6.52765951431045,
+              "max_depolarisation_shared_window_mv": 3.719392469206568
+            }
+          }
+        },
+        "lc4_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 806,
+              "max_depolarisation_own_window_mv": 6.038624741667299,
+              "max_depolarisation_shared_window_mv": 6.038624741667299
+            },
+            "R": {
+              "first_spike_step": 822,
+              "max_depolarisation_own_window_mv": 6.4389900349108515,
+              "max_depolarisation_shared_window_mv": 2.118609386890327
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1797,
+              "max_depolarisation_own_window_mv": 6.2108692415593865,
+              "max_depolarisation_shared_window_mv": 6.2108692415593865
+            },
+            "R": {
+              "first_spike_step": 1805,
+              "max_depolarisation_own_window_mv": 6.255128601503316,
+              "max_depolarisation_shared_window_mv": 3.5424937009689543
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          }
+        },
+        "lplc2_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 861,
+              "max_depolarisation_own_window_mv": 6.346389653985582,
+              "max_depolarisation_shared_window_mv": 5.499306291990642
+            },
+            "R": {
+              "first_spike_step": 859,
+              "max_depolarisation_own_window_mv": 6.589796065968343,
+              "max_depolarisation_shared_window_mv": 6.589796065968343
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1678,
+              "max_depolarisation_own_window_mv": 6.183182555041107,
+              "max_depolarisation_shared_window_mv": 6.183182555041107
+            },
+            "R": {
+              "first_spike_step": 1686,
+              "max_depolarisation_own_window_mv": 6.2195276637911405,
+              "max_depolarisation_shared_window_mv": 3.306875853049249
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3322,
+              "max_depolarisation_own_window_mv": 6.524926704158389,
+              "max_depolarisation_shared_window_mv": 5.43781174048479
+            },
+            "R": {
+              "first_spike_step": 3319,
+              "max_depolarisation_own_window_mv": 6.503342040906844,
+              "max_depolarisation_shared_window_mv": 6.503342040906844
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6547,
+              "max_depolarisation_own_window_mv": 6.173737023121156,
+              "max_depolarisation_shared_window_mv": 6.173737023121156
+            },
+            "R": {
+              "first_spike_step": 6574,
+              "max_depolarisation_own_window_mv": 6.413322641946543,
+              "max_depolarisation_shared_window_mv": 1.5179789027649164
+            }
+          }
+        },
+        "b3_lplc2_silenced": {
+          "L": {
+            "first_spike_step": null,
+            "max_depolarisation_own_window_mv": 0.0,
+            "max_depolarisation_shared_window_mv": 0.0
+          },
+          "R": {
+            "first_spike_step": null,
+            "max_depolarisation_own_window_mv": 0.0,
+            "max_depolarisation_shared_window_mv": 0.0
+          }
+        },
+        "b4": {
+          "both": {
+            "L": {
+              "first_spike_step": 3320,
+              "max_depolarisation_own_window_mv": 6.050409583336908,
+              "max_depolarisation_shared_window_mv": 6.050409583336908
+            },
+            "R": {
+              "first_spike_step": 3325,
+              "max_depolarisation_own_window_mv": 6.696054834508779,
+              "max_depolarisation_shared_window_mv": 5.236457223435288
+            }
+          },
+          "left": {
+            "L": {
+              "first_spike_step": 3319,
+              "max_depolarisation_own_window_mv": 6.446478854165534,
+              "max_depolarisation_shared_window_mv": 6.446478854165534
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "right": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": 3327,
+              "max_depolarisation_own_window_mv": 6.473005691377118,
+              "max_depolarisation_shared_window_mv": 6.473005691377118
+            }
+          }
+        }
+      }
+    },
+    "1.2x": {
+      "gain_mv_per_ms": 9.6,
+      "sigma_deg": 5.0,
+      "theta_at_spike_by_rv": {
+        "10.0": 29.862436455729277,
+        "20.0": 35.54208331336235,
+        "40.0": 34.707516054950986,
+        "80.0": 33.68019093654042
+      },
+      "peak_time_by_rv": {
+        "10.0": 76.69999999999564,
+        "20.0": 166.09999999999056,
+        "40.0": 329.10000000007483,
+        "80.0": 650.0000000001478
+      },
+      "lc4_contribution_by_rv": {
+        "10.0": 5.9010021981006275,
+        "20.0": 5.530136569606697,
+        "40.0": 6.046630783007089,
+        "80.0": 0.0
+      },
+      "lplc2_contribution_by_rv": {
+        "10.0": 4.619398166717403,
+        "20.0": 5.651388552245521,
+        "40.0": 6.189275617890743,
+        "80.0": 3.989033725294938
+      },
+      "binocular_index": 0.8805294222529657,
+      "peak_time_lplc2_silenced_ms": 379.9000000000864,
+      "max_depolarisation_lplc2_silenced_mv": 4.498986115608069,
+      "binocular_depolarisation_mv": {
+        "both": 5.602692029913214,
+        "left": 3.1210170944514743,
+        "right": 3.2418503899511393
+      },
+      "B1_passed": false,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": true,
+      "per_gf": {
+        "intact_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 768,
+              "max_depolarisation_own_window_mv": 6.118057637157001,
+              "max_depolarisation_shared_window_mv": 6.118057637157001
+            },
+            "R": {
+              "first_spike_step": 789,
+              "max_depolarisation_own_window_mv": 6.6172807392135695,
+              "max_depolarisation_shared_window_mv": 2.556182638168629
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1662,
+              "max_depolarisation_own_window_mv": 6.464121516568156,
+              "max_depolarisation_shared_window_mv": 6.464121516568156
+            },
+            "R": {
+              "first_spike_step": 1672,
+              "max_depolarisation_own_window_mv": 6.271089915566911,
+              "max_depolarisation_shared_window_mv": 2.648271420721521
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3292,
+              "max_depolarisation_own_window_mv": 6.245026611263555,
+              "max_depolarisation_shared_window_mv": 6.245026611263555
+            },
+            "R": {
+              "first_spike_step": 3296,
+              "max_depolarisation_own_window_mv": 6.41423440105612,
+              "max_depolarisation_shared_window_mv": 4.738572762545992
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6501,
+              "max_depolarisation_own_window_mv": 6.150782079560706,
+              "max_depolarisation_shared_window_mv": 6.150782079560706
+            },
+            "R": {
+              "first_spike_step": 6516,
+              "max_depolarisation_own_window_mv": 6.585288424780231,
+              "max_depolarisation_shared_window_mv": 2.295700913403195
+            }
+          }
+        },
+        "lc4_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 773,
+              "max_depolarisation_own_window_mv": 6.345553113358854,
+              "max_depolarisation_shared_window_mv": 6.345553113358854
+            },
+            "R": {
+              "first_spike_step": 776,
+              "max_depolarisation_own_window_mv": 6.4828800538657845,
+              "max_depolarisation_shared_window_mv": 5.456451282842401
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1747,
+              "max_depolarisation_own_window_mv": 6.383975657074217,
+              "max_depolarisation_shared_window_mv": 4.839400410833093
+            },
+            "R": {
+              "first_spike_step": 1743,
+              "max_depolarisation_own_window_mv": 6.220872728380293,
+              "max_depolarisation_shared_window_mv": 6.220872728380293
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3800,
+              "max_depolarisation_own_window_mv": 6.293845460412726,
+              "max_depolarisation_shared_window_mv": 5.863606300642267
+            },
+            "R": {
+              "first_spike_step": 3799,
+              "max_depolarisation_own_window_mv": 6.229655265371903,
+              "max_depolarisation_shared_window_mv": 6.229655265371903
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          }
+        },
+        "lplc2_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 839,
+              "max_depolarisation_own_window_mv": 6.140760876640201,
+              "max_depolarisation_shared_window_mv": 6.140760876640201
+            },
+            "R": {
+              "first_spike_step": 849,
+              "max_depolarisation_own_window_mv": 6.608649296665675,
+              "max_depolarisation_shared_window_mv": 3.0980354567946122
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1670,
+              "max_depolarisation_own_window_mv": 6.321976374078538,
+              "max_depolarisation_shared_window_mv": 6.321976374078538
+            },
+            "R": {
+              "first_spike_step": 1676,
+              "max_depolarisation_own_window_mv": 6.611958990503446,
+              "max_depolarisation_shared_window_mv": 4.980800730412497
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3298,
+              "max_depolarisation_own_window_mv": 6.5350385410997305,
+              "max_depolarisation_shared_window_mv": 6.5350385410997305
+            },
+            "R": {
+              "first_spike_step": 3300,
+              "max_depolarisation_own_window_mv": 6.542584427342703,
+              "max_depolarisation_shared_window_mv": 5.843512694681749
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6500,
+              "max_depolarisation_own_window_mv": 6.136808736063841,
+              "max_depolarisation_shared_window_mv": 6.136808736063841
+            },
+            "R": {
+              "first_spike_step": 6517,
+              "max_depolarisation_own_window_mv": 6.137067309418583,
+              "max_depolarisation_shared_window_mv": 1.8412587145260346
+            }
+          }
+        },
+        "b3_lplc2_silenced": {
+          "L": {
+            "first_spike_step": 3800,
+            "max_depolarisation_own_window_mv": 6.221608987937621,
+            "max_depolarisation_shared_window_mv": 6.221608987937621
+          },
+          "R": {
+            "first_spike_step": 3810,
+            "max_depolarisation_own_window_mv": 6.55507544138559,
+            "max_depolarisation_shared_window_mv": 2.7763632432785172
+          }
+        },
+        "b4": {
+          "both": {
+            "L": {
+              "first_spike_step": 3299,
+              "max_depolarisation_own_window_mv": 5.96395407311222,
+              "max_depolarisation_shared_window_mv": 5.96395407311222
+            },
+            "R": {
+              "first_spike_step": 3305,
+              "max_depolarisation_own_window_mv": 6.562118482101873,
+              "max_depolarisation_shared_window_mv": 5.241429986714209
+            }
+          },
+          "left": {
+            "L": {
+              "first_spike_step": 3295,
+              "max_depolarisation_own_window_mv": 6.242034188902942,
+              "max_depolarisation_shared_window_mv": 6.242034188902942
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "right": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": 3317,
+              "max_depolarisation_own_window_mv": 6.4837007799022714,
+              "max_depolarisation_shared_window_mv": 6.4837007799022714
+            }
+          }
+        }
+      }
+    },
+    "1.4x": {
+      "gain_mv_per_ms": 11.2,
+      "sigma_deg": 5.0,
+      "theta_at_spike_by_rv": {
+        "10.0": 27.158575760091008,
+        "20.0": 35.702907061880225,
+        "40.0": 34.379227529728205,
+        "80.0": 33.38223180628869
+      },
+      "peak_time_by_rv": {
+        "10.0": 72.79999999999586,
+        "20.0": 166.39999999999054,
+        "40.0": 327.80000000007453,
+        "80.0": 647.5000000001472
+      },
+      "lc4_contribution_by_rv": {
+        "10.0": 3.482815969757951,
+        "20.0": 5.177325340728125,
+        "40.0": 5.61126394916478,
+        "80.0": 0.0
+      },
+      "lplc2_contribution_by_rv": {
+        "10.0": 5.053149477696834,
+        "20.0": 5.706404125675711,
+        "40.0": 4.808494655970506,
+        "80.0": 4.5754777515494425
+      },
+      "binocular_index": 0.7280522205946567,
+      "peak_time_lplc2_silenced_ms": 370.8000000000843,
+      "max_depolarisation_lplc2_silenced_mv": 5.297309789151065,
+      "binocular_depolarisation_mv": {
+        "both": 4.828312980327091,
+        "left": 3.2611345828827325,
+        "right": 3.370687755882244
+      },
+      "B1_passed": false,
+      "B2_passed": false,
+      "B3_passed": true,
+      "B4_passed": true,
+      "per_gf": {
+        "intact_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 729,
+              "max_depolarisation_own_window_mv": 5.84029497362598,
+              "max_depolarisation_shared_window_mv": 5.84029497362598
+            },
+            "R": {
+              "first_spike_step": 742,
+              "max_depolarisation_own_window_mv": 6.488671752352367,
+              "max_depolarisation_shared_window_mv": 3.040995883158324
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1665,
+              "max_depolarisation_own_window_mv": 6.262740465991442,
+              "max_depolarisation_shared_window_mv": 6.262740465991442
+            },
+            "R": {
+              "first_spike_step": 1666,
+              "max_depolarisation_own_window_mv": 6.39302713091395,
+              "max_depolarisation_shared_window_mv": 5.914319034840929
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3279,
+              "max_depolarisation_own_window_mv": 6.489803519214803,
+              "max_depolarisation_shared_window_mv": 6.489803519214803
+            },
+            "R": {
+              "first_spike_step": 3281,
+              "max_depolarisation_own_window_mv": 6.39778582097118,
+              "max_depolarisation_shared_window_mv": 5.803120137695579
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6476,
+              "max_depolarisation_own_window_mv": 6.416874215332001,
+              "max_depolarisation_shared_window_mv": 6.416874215332001
+            },
+            "R": {
+              "first_spike_step": 6480,
+              "max_depolarisation_own_window_mv": 6.239664674719371,
+              "max_depolarisation_shared_window_mv": 5.011158381789116
+            }
+          }
+        },
+        "lc4_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 727,
+              "max_depolarisation_own_window_mv": 5.999894633933032,
+              "max_depolarisation_shared_window_mv": 5.999894633933032
+            },
+            "R": {
+              "first_spike_step": 745,
+              "max_depolarisation_own_window_mv": 6.098573529380168,
+              "max_depolarisation_shared_window_mv": 0.9657373055828629
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1682,
+              "max_depolarisation_own_window_mv": 6.157545837919422,
+              "max_depolarisation_shared_window_mv": 6.157545837919422
+            },
+            "R": {
+              "first_spike_step": 1687,
+              "max_depolarisation_own_window_mv": 6.377034956136235,
+              "max_depolarisation_shared_window_mv": 4.1971048435368274
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3720,
+              "max_depolarisation_own_window_mv": 6.440389589901017,
+              "max_depolarisation_shared_window_mv": 4.819371233489605
+            },
+            "R": {
+              "first_spike_step": 3716,
+              "max_depolarisation_own_window_mv": 6.403156664839955,
+              "max_depolarisation_shared_window_mv": 6.403156664839955
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          }
+        },
+        "lplc2_only_by_rv": {
+          "10.0": {
+            "L": {
+              "first_spike_step": 838,
+              "max_depolarisation_own_window_mv": 6.357217354711629,
+              "max_depolarisation_shared_window_mv": 6.357217354711629
+            },
+            "R": {
+              "first_spike_step": 847,
+              "max_depolarisation_own_window_mv": 6.653165886309893,
+              "max_depolarisation_shared_window_mv": 3.7490816006820467
+            }
+          },
+          "20.0": {
+            "L": {
+              "first_spike_step": 1667,
+              "max_depolarisation_own_window_mv": 6.4153477248321735,
+              "max_depolarisation_shared_window_mv": 5.280519971540059
+            },
+            "R": {
+              "first_spike_step": 1664,
+              "max_depolarisation_own_window_mv": 6.1322882798113625,
+              "max_depolarisation_shared_window_mv": 6.1322882798113625
+            }
+          },
+          "40.0": {
+            "L": {
+              "first_spike_step": 3273,
+              "max_depolarisation_own_window_mv": 6.346780205554886,
+              "max_depolarisation_shared_window_mv": 6.346780205554886
+            },
+            "R": {
+              "first_spike_step": 3282,
+              "max_depolarisation_own_window_mv": 6.386822068321322,
+              "max_depolarisation_shared_window_mv": 3.270209106386133
+            }
+          },
+          "80.0": {
+            "L": {
+              "first_spike_step": 6474,
+              "max_depolarisation_own_window_mv": 6.315587818693487,
+              "max_depolarisation_shared_window_mv": 6.315587818693487
+            },
+            "R": {
+              "first_spike_step": 6483,
+              "max_depolarisation_own_window_mv": 6.2547908557319545,
+              "max_depolarisation_shared_window_mv": 2.8353676844053908
+            }
+          }
+        },
+        "b3_lplc2_silenced": {
+          "L": {
+            "first_spike_step": 3709,
+            "max_depolarisation_own_window_mv": 5.963645824378453,
+            "max_depolarisation_shared_window_mv": 5.963645824378453
+          },
+          "R": {
+            "first_spike_step": 3713,
+            "max_depolarisation_own_window_mv": 6.472280343360119,
+            "max_depolarisation_shared_window_mv": 4.630973753923676
+          }
+        },
+        "b4": {
+          "both": {
+            "L": {
+              "first_spike_step": 3270,
+              "max_depolarisation_own_window_mv": 6.585726124474704,
+              "max_depolarisation_shared_window_mv": 6.585726124474704
+            },
+            "R": {
+              "first_spike_step": 3279,
+              "max_depolarisation_own_window_mv": 6.475501081323728,
+              "max_depolarisation_shared_window_mv": 3.0708998361794784
+            }
+          },
+          "left": {
+            "L": {
+              "first_spike_step": 3288,
+              "max_depolarisation_own_window_mv": 6.522269165765465,
+              "max_depolarisation_shared_window_mv": 6.522269165765465
+            },
+            "R": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            }
+          },
+          "right": {
+            "L": {
+              "first_spike_step": null,
+              "max_depolarisation_own_window_mv": 0.0,
+              "max_depolarisation_shared_window_mv": 0.0
+            },
+            "R": {
+              "first_spike_step": 3282,
+              "max_depolarisation_own_window_mv": 6.741375511764481,
+              "max_depolarisation_shared_window_mv": 6.741375511764481
+            }
+          }
+        }
+      }
+    }
+  }
+}

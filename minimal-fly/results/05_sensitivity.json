@@ -1,0 +1,466 @@
+{
+  "conditions": {
+    "S1 P0 sep=0.3": {
+      "name": "S1 P0 sep=0.3",
+      "n": 200,
+      "successes": 35,
+      "success_rate": 0.175,
+      "success_ci": [
+        0.12860515066273331,
+        0.23364431148248993
+      ],
+      "lost_rate": 0.825,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 2.8577000000000004,
+      "time_to_food_iqr_s": [
+        2.55795,
+        5.4041
+      ],
+      "path_efficiency_median": 0.7659059221316201,
+      "approach_index_mean": -0.2956745771882467,
+      "approach_index_ci": [
+        -0.36357943547322596,
+        -0.22706938597479556
+      ],
+      "speed_mean_mm_s": 11.013673998041154,
+      "speed_ci": [
+        10.975275831197655,
+        11.05272904017519
+      ]
+    },
+    "S1 P3b sep=0.3": {
+      "name": "S1 P3b sep=0.3",
+      "n": 200,
+      "successes": 14,
+      "success_rate": 0.07,
+      "success_ci": [
+        0.042152171828342806,
+        0.11405480885610647
+      ],
+      "lost_rate": 0.93,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 3.0518,
+      "time_to_food_iqr_s": [
+        2.75475,
+        3.3976
+      ],
+      "path_efficiency_median": 0.8166555589609485,
+      "approach_index_mean": -0.4416250836769569,
+      "approach_index_ci": [
+        -0.4973321021275545,
+        -0.3828465114318329
+      ],
+      "speed_mean_mm_s": 9.979111106929006,
+      "speed_ci": [
+        9.958537856915843,
+        9.999379839714097
+      ]
+    },
+    "S1 P0 sep=0.6": {
+      "name": "S1 P0 sep=0.6",
+      "n": 200,
+      "successes": 36,
+      "success_rate": 0.18,
+      "success_ci": [
+        0.13294625859420173,
+        0.23911475028724882
+      ],
+      "lost_rate": 0.82,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 4.70885,
+      "time_to_food_iqr_s": [
+        2.966775,
+        8.09955
+      ],
+      "path_efficiency_median": 0.4619808630459702,
+      "approach_index_mean": -0.28748097891554186,
+      "approach_index_ci": [
+        -0.3488310579020197,
+        -0.2235725363383689
+      ],
+      "speed_mean_mm_s": 11.030758826206473,
+      "speed_ci": [
+        10.990026889142014,
+        11.070984892484471
+      ]
+    },
+    "S1 P3b sep=0.6": {
+      "name": "S1 P3b sep=0.6",
+      "n": 200,
+      "successes": 14,
+      "success_rate": 0.07,
+      "success_ci": [
+        0.042152171828342806,
+        0.11405480885610647
+      ],
+      "lost_rate": 0.93,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 3.0518,
+      "time_to_food_iqr_s": [
+        2.75475,
+        3.3976
+      ],
+      "path_efficiency_median": 0.8166555589609485,
+      "approach_index_mean": -0.4416250836769569,
+      "approach_index_ci": [
+        -0.497895829043559,
+        -0.3824271318471245
+      ],
+      "speed_mean_mm_s": 9.979111106929006,
+      "speed_ci": [
+        9.958971728297334,
+        9.999751580504622
+      ]
+    },
+    "S1 P0 sep=1.25": {
+      "name": "S1 P0 sep=1.25",
+      "n": 200,
+      "successes": 56,
+      "success_rate": 0.28,
+      "success_ci": [
+        0.22236889773949026,
+        0.3459230458665071
+      ],
+      "lost_rate": 0.72,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 5.9675,
+      "time_to_food_iqr_s": [
+        2.63065,
+        11.736400000000001
+      ],
+      "path_efficiency_median": 0.37337289526326,
+      "approach_index_mean": -0.18254343239389892,
+      "approach_index_ci": [
+        -0.2526579968417266,
+        -0.11089427426147762
+      ],
+      "speed_mean_mm_s": 11.077771362157332,
+      "speed_ci": [
+        11.036430273788554,
+        11.118221113331272
+      ]
+    },
+    "S1 P3b sep=1.25": {
+      "name": "S1 P3b sep=1.25",
+      "n": 200,
+      "successes": 14,
+      "success_rate": 0.07,
+      "success_ci": [
+        0.042152171828342806,
+        0.11405480885610647
+      ],
+      "lost_rate": 0.93,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 3.0518,
+      "time_to_food_iqr_s": [
+        2.75475,
+        3.3976
+      ],
+      "path_efficiency_median": 0.8166555589609485,
+      "approach_index_mean": -0.4416250836769569,
+      "approach_index_ci": [
+        -0.49718427829025563,
+        -0.3822872299059254
+      ],
+      "speed_mean_mm_s": 9.979111106929006,
+      "speed_ci": [
+        9.958965603349986,
+        9.999117957458608
+      ]
+    },
+    "S1 P0 sep=2.5": {
+      "name": "S1 P0 sep=2.5",
+      "n": 200,
+      "successes": 106,
+      "success_rate": 0.53,
+      "success_ci": [
+        0.4609168291500183,
+        0.5979524512673458
+      ],
+      "lost_rate": 0.465,
+      "timeout_rate": 0.005,
+      "time_to_food_median_s": 7.7257,
+      "time_to_food_iqr_s": [
+        3.33955,
+        19.121750000000002
+      ],
+      "path_efficiency_median": 0.2859286372691058,
+      "approach_index_mean": 0.0204169108641877,
+      "approach_index_ci": [
+        -0.04568653116882479,
+        0.08751861007696841
+      ],
+      "speed_mean_mm_s": 11.197324074379551,
+      "speed_ci": [
+        11.160352881925622,
+        11.233976492698364
+      ]
+    },
+    "S1 P3b sep=2.5": {
+      "name": "S1 P3b sep=2.5",
+      "n": 200,
+      "successes": 14,
+      "success_rate": 0.07,
+      "success_ci": [
+        0.042152171828342806,
+        0.11405480885610647
+      ],
+      "lost_rate": 0.93,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 3.0518,
+      "time_to_food_iqr_s": [
+        2.75475,
+        3.3976
+      ],
+      "path_efficiency_median": 0.8166555589609485,
+      "approach_index_mean": -0.4416250836769569,
+      "approach_index_ci": [
+        -0.4967027855598762,
+        -0.3829920413700407
+      ],
+      "speed_mean_mm_s": 9.979111106929006,
+      "speed_ci": [
+        9.958987869076395,
+        9.999993405775076
+      ]
+    },
+    "S1 P0 sep=5": {
+      "name": "S1 P0 sep=5",
+      "n": 200,
+      "successes": 185,
+      "success_rate": 0.925,
+      "success_ci": [
+        0.8799563897637055,
+        0.954025082815618
+      ],
+      "lost_rate": 0.07,
+      "timeout_rate": 0.005,
+      "time_to_food_median_s": 7.0872,
+      "time_to_food_iqr_s": [
+        3.5791000000000004,
+        14.046800000000001
+      ],
+      "path_efficiency_median": 0.3113065816082831,
+      "approach_index_mean": 0.3331248645420524,
+      "approach_index_ci": [
+        0.2823538839608665,
+        0.3834181085313013
+      ],
+      "speed_mean_mm_s": 11.317206702625986,
+      "speed_ci": [
+        11.286713233202306,
+        11.347139855083768
+      ]
+    },
+    "S1 P3b sep=5": {
+      "name": "S1 P3b sep=5",
+      "n": 200,
+      "successes": 14,
+      "success_rate": 0.07,
+      "success_ci": [
+        0.042152171828342806,
+        0.11405480885610647
+      ],
+      "lost_rate": 0.93,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 3.0518,
+      "time_to_food_iqr_s": [
+        2.75475,
+        3.3976
+      ],
+      "path_efficiency_median": 0.8166555589609485,
+      "approach_index_mean": -0.4416250836769569,
+      "approach_index_ci": [
+        -0.49770259422601876,
+        -0.3827695958125706
+      ],
+      "speed_mean_mm_s": 9.979111106929006,
+      "speed_ci": [
+        9.959114256338932,
+        9.999131760445685
+      ]
+    },
+    "S2 P0 sd=1": {
+      "name": "S2 P0 sd=1",
+      "n": 200,
+      "successes": 190,
+      "success_rate": 0.95,
+      "success_ci": [
+        0.9104218518612239,
+        0.972617354399236
+      ],
+      "lost_rate": 0.05,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 4.10855,
+      "time_to_food_iqr_s": [
+        2.7452,
+        11.8909
+      ],
+      "path_efficiency_median": 0.5388876150316243,
+      "approach_index_mean": 0.4513310045092652,
+      "approach_index_ci": [
+        0.3933068109642627,
+        0.5060357614137153
+      ],
+      "speed_mean_mm_s": 11.250500192759327,
+      "speed_ci": [
+        11.226813530230894,
+        11.273980710926748
+      ]
+    },
+    "S2 P3b sd=1": {
+      "name": "S2 P3b sd=1",
+      "n": 200,
+      "successes": 6,
+      "success_rate": 0.03,
+      "success_ci": [
+        0.013820314340111346,
+        0.06389429245451925
+      ],
+      "lost_rate": 0.97,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 2.5358,
+      "time_to_food_iqr_s": [
+        2.507575,
+        2.565075
+      ],
+      "path_efficiency_median": 0.9448782919926463,
+      "approach_index_mean": -0.5433464570259087,
+      "approach_index_ci": [
+        -0.589829938532725,
+        -0.49261795671503295
+      ],
+      "speed_mean_mm_s": 10.426203164986143,
+      "speed_ci": [
+        10.415363283226506,
+        10.43693785797575
+      ]
+    },
+    "S2 P0 sd=2": {
+      "name": "S2 P0 sd=2",
+      "n": 200,
+      "successes": 185,
+      "success_rate": 0.925,
+      "success_ci": [
+        0.8799563897637055,
+        0.954025082815618
+      ],
+      "lost_rate": 0.07,
+      "timeout_rate": 0.005,
+      "time_to_food_median_s": 7.0872,
+      "time_to_food_iqr_s": [
+        3.5791000000000004,
+        14.046800000000001
+      ],
+      "path_efficiency_median": 0.3113065816082831,
+      "approach_index_mean": 0.3331248645420524,
+      "approach_index_ci": [
+        0.28288977695755146,
+        0.3810171998577464
+      ],
+      "speed_mean_mm_s": 11.317206702625986,
+      "speed_ci": [
+        11.286033339655068,
+        11.346510863047634
+      ]
+    },
+    "S2 P3b sd=2": {
+      "name": "S2 P3b sd=2",
+      "n": 200,
+      "successes": 14,
+      "success_rate": 0.07,
+      "success_ci": [
+        0.042152171828342806,
+        0.11405480885610647
+      ],
+      "lost_rate": 0.93,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 3.0518,
+      "time_to_food_iqr_s": [
+        2.75475,
+        3.3976
+      ],
+      "path_efficiency_median": 0.8166555589609485,
+      "approach_index_mean": -0.4416250836769569,
+      "approach_index_ci": [
+        -0.49662883580620865,
+        -0.38219996277596224
+      ],
+      "speed_mean_mm_s": 9.979111106929006,
+      "speed_ci": [
+        9.958666901564142,
+        9.999445037431492
+      ]
+    },
+    "S2 P0 sd=4": {
+      "name": "S2 P0 sd=4",
+      "n": 200,
+      "successes": 174,
+      "success_rate": 0.87,
+      "success_ci": [
+        0.8163364812775159,
+        0.9097179772033067
+      ],
+      "lost_rate": 0.115,
+      "timeout_rate": 0.015,
+      "time_to_food_median_s": 9.88985,
+      "time_to_food_iqr_s": [
+        4.549200000000001,
+        16.4869
+      ],
+      "path_efficiency_median": 0.21491993386791802,
+      "approach_index_mean": 0.2192151838832131,
+      "approach_index_ci": [
+        0.17332352002777743,
+        0.26386250892262875
+      ],
+      "speed_mean_mm_s": 11.811186972848537,
+      "speed_ci": [
+        11.769266554375251,
+        11.853178203602274
+      ]
+    },
+    "S2 P3b sd=4": {
+      "name": "S2 P3b sd=4",
+      "n": 200,
+      "successes": 31,
+      "success_rate": 0.155,
+      "success_ci": [
+        0.11139636927689314,
+        0.21160690592342077
+      ],
+      "lost_rate": 0.845,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 7.5369,
+      "time_to_food_iqr_s": [
+        3.9969,
+        19.70035
+      ],
+      "path_efficiency_median": 0.3470230065295443,
+      "approach_index_mean": -0.2802053002036609,
+      "approach_index_ci": [
+        -0.3334996272104462,
+        -0.22473098983866907
+      ],
+      "speed_mean_mm_s": 9.443681049153957,
+      "speed_ci": [
+        9.414342668179376,
+        9.473752156418307
+      ]
+    }
+  },
+  "S1_baseline_success_by_sep": {
+    "0.3": 0.175,
+    "0.6": 0.18,
+    "1.25": 0.28,
+    "2.5": 0.53,
+    "5.0": 0.925
+  },
+  "S1_rises_with_separation": true,
+  "S2_baseline_success_by_noise": {
+    "1.0": 0.95,
+    "2.0": 0.925,
+    "4.0": 0.87
+  },
+  "S2_falls_with_noise": true
+}

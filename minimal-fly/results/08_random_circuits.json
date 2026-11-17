@@ -1,0 +1,50 @@
+{
+  "seeds": "trials stream 3, wiring stream 4",
+  "n_circuits": 1000,
+  "steer_log_delta": 0.1875,
+  "Q1": {
+    "finds_food": 11,
+    "fraction": 0.011,
+    "ci": [
+      0.006153174098086638,
+      0.019589395700786275
+    ],
+    "worse_than_control": 18,
+    "wording": "a few random circuits find food on their own"
+  },
+  "C1": {
+    "approach": 261,
+    "avoid": 247,
+    "neither": 492,
+    "p": 0.5641297553081168,
+    "pass": true
+  },
+  "P1": {
+    "spearman_rho": 0.3768107704211541,
+    "p_one_sided": 9.999000099990002e-05,
+    "pass": true
+  },
+  "PC": {
+    "successes": 71,
+    "control": 12,
+    "p": 1.2421162189080182e-15,
+    "pass": true,
+    "steering_bias_deg_s": 44.105177935292126
+  },
+  "explore": {
+    "finders_that_steer_towards": 4,
+    "finders_without_significant_steering": 6,
+    "finders_that_steer_away": 1,
+    "best_random": {
+      "name": "R0284",
+      "success": 0.76,
+      "control": 0.23,
+      "steering_bias_deg_s": -4.996390217505432,
+      "crossed_index": -2,
+      "wiring": "INT1(+) L3/R4 -> INT3,MN_L,MN_R; INT2(+) L3/R2 -> INT1,INT3,MN_L; INT3(+) L4/R3 -> INT1,INT2,INT4,MN_L; INT4(+) L2/R2 -> INT3,MN_R"
+    },
+    "finder_success_median": 0.39,
+    "control_success_median": 0.0,
+    "random_success_median": 0.0
+  }
+}

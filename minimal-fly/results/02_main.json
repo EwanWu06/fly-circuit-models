@@ -1,0 +1,540 @@
+{
+  "seeds": "B (stream 2)",
+  "frozen": {
+    "NOISE_SIGMA": 2.8227288726858335,
+    "MN_DRIVE": 2.3942184448242188,
+    "ORN_GAIN": 5.7389068603515625,
+    "N_SYN": 320,
+    "ANTENNA_SEP_MM": 5.0,
+    "BASELINE_PASSED": true
+  },
+  "steer_log_delta": 0.1875,
+  "conditions": {
+    "P0": {
+      "name": "P0",
+      "n": 200,
+      "successes": 185,
+      "success_rate": 0.925,
+      "success_ci": [
+        0.8799563897637055,
+        0.954025082815618
+      ],
+      "lost_rate": 0.07,
+      "timeout_rate": 0.005,
+      "time_to_food_median_s": 7.0872,
+      "time_to_food_iqr_s": [
+        3.5791000000000004,
+        14.046800000000001
+      ],
+      "path_efficiency_median": 0.3113065816082831,
+      "approach_index_mean": 0.3331248645420524,
+      "approach_index_ci": [
+        0.28252018215258706,
+        0.3824765389586235
+      ],
+      "speed_mean_mm_s": 11.317206702625986,
+      "speed_ci": [
+        11.286548560029276,
+        11.346566371357616
+      ],
+      "circling_rate": 0.02,
+      "steering_bias_mean_rad_s": 1.6017903906250033,
+      "steering_bias_ci": [
+        1.5600164021570975,
+        1.6443056390381354
+      ]
+    },
+    "P1": {
+      "name": "P1",
+      "n": 200,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_ci": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ],
+      "lost_rate": 1.0,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": null,
+      "time_to_food_iqr_s": null,
+      "path_efficiency_median": null,
+      "approach_index_mean": -0.7460188366311142,
+      "approach_index_ci": [
+        -0.7655775564150445,
+        -0.7257288860495189
+      ],
+      "speed_mean_mm_s": 7.86758647988127,
+      "speed_ci": [
+        7.819661737367209,
+        7.915646692343885
+      ],
+      "circling_rate": 0.0,
+      "steering_bias_mean_rad_s": -3.2126234358328207,
+      "steering_bias_ci": [
+        -3.2772107141391777,
+        -3.147268031344329
+      ]
+    },
+    "P2+1": {
+      "name": "P2+1",
+      "n": 200,
+      "successes": 186,
+      "success_rate": 0.93,
+      "success_ci": [
+        0.8859451911438936,
+        0.9578478281716571
+      ],
+      "lost_rate": 0.07,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 6.82385,
+      "time_to_food_iqr_s": [
+        4.168075,
+        14.041500000000001
+      ],
+      "path_efficiency_median": 0.3771757612883677,
+      "approach_index_mean": 0.354489526013667,
+      "approach_index_ci": [
+        0.304928454230173,
+        0.40288458065554883
+      ],
+      "speed_mean_mm_s": 9.487812918185456,
+      "speed_ci": [
+        9.460226486838756,
+        9.515133001556222
+      ],
+      "circling_rate": 0.0,
+      "steering_bias_mean_rad_s": 1.3883412872832472,
+      "steering_bias_ci": [
+        1.3454336908329192,
+        1.4307601852295
+      ]
+    },
+    "P2+2": {
+      "name": "P2+2",
+      "n": 200,
+      "successes": 188,
+      "success_rate": 0.94,
+      "success_ci": [
+        0.8980683070423372,
+        0.9653478057456681
+      ],
+      "lost_rate": 0.055,
+      "timeout_rate": 0.005,
+      "time_to_food_median_s": 7.956950000000001,
+      "time_to_food_iqr_s": [
+        4.582525,
+        15.862475
+      ],
+      "path_efficiency_median": 0.39132080598287944,
+      "approach_index_mean": 0.39410331801205495,
+      "approach_index_ci": [
+        0.3445759919138772,
+        0.4420621880086965
+      ],
+      "speed_mean_mm_s": 7.965978459914809,
+      "speed_ci": [
+        7.943619325759745,
+        7.987778141541286
+      ],
+      "circling_rate": 0.005,
+      "steering_bias_mean_rad_s": 1.3189834505945306,
+      "steering_bias_ci": [
+        1.2770030757293156,
+        1.359009672979373
+      ]
+    },
+    "P2+3": {
+      "name": "P2+3",
+      "n": 200,
+      "successes": 188,
+      "success_rate": 0.94,
+      "success_ci": [
+        0.8980683070423372,
+        0.9653478057456681
+      ],
+      "lost_rate": 0.06,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 8.45805,
+      "time_to_food_iqr_s": [
+        5.431725,
+        17.817675
+      ],
+      "path_efficiency_median": 0.44300167713396277,
+      "approach_index_mean": 0.4095358339657708,
+      "approach_index_ci": [
+        0.3575546625078346,
+        0.46038016325421754
+      ],
+      "speed_mean_mm_s": 6.602586378269707,
+      "speed_ci": [
+        6.574555217726015,
+        6.62837373636422
+      ],
+      "circling_rate": 0.01,
+      "steering_bias_mean_rad_s": 1.302980382657748,
+      "steering_bias_ci": [
+        1.2638468932030926,
+        1.3423916312698552
+      ]
+    },
+    "P2+4": {
+      "name": "P2+4",
+      "n": 200,
+      "successes": 190,
+      "success_rate": 0.95,
+      "success_ci": [
+        0.9104218518612239,
+        0.972617354399236
+      ],
+      "lost_rate": 0.025,
+      "timeout_rate": 0.025,
+      "time_to_food_median_s": 11.6964,
+      "time_to_food_iqr_s": [
+        6.745875,
+        21.133825
+      ],
+      "path_efficiency_median": 0.3823320507160001,
+      "approach_index_mean": 0.4110333651571829,
+      "approach_index_ci": [
+        0.36493200717311286,
+        0.45322704764189675
+      ],
+      "speed_mean_mm_s": 5.506426043929741,
+      "speed_ci": [
+        5.48166884378466,
+        5.529015486749975
+      ],
+      "circling_rate": 0.015,
+      "steering_bias_mean_rad_s": 1.272984387069075,
+      "steering_bias_ci": [
+        1.2334024381237836,
+        1.3116671594438112
+      ]
+    },
+    "P2+6": {
+      "name": "P2+6",
+      "n": 200,
+      "successes": 194,
+      "success_rate": 0.97,
+      "success_ci": [
+        0.9361057075454807,
+        0.9861796856598887
+      ],
+      "lost_rate": 0.0,
+      "timeout_rate": 0.03,
+      "time_to_food_median_s": 12.7548,
+      "time_to_food_iqr_s": [
+        8.7965,
+        21.857825
+      ],
+      "path_efficiency_median": 0.5091694965265683,
+      "approach_index_mean": 0.5004277284520743,
+      "approach_index_ci": [
+        0.46537119181662523,
+        0.5354072976524668
+      ],
+      "speed_mean_mm_s": 3.890870834362736,
+      "speed_ci": [
+        3.868303082964916,
+        3.9122547800373004
+      ],
+      "circling_rate": 0.01,
+      "steering_bias_mean_rad_s": 1.2688257311031874,
+      "steering_bias_ci": [
+        1.2250903869261704,
+        1.314239730115705
+      ]
+    },
+    "P2s+1": {
+      "name": "P2s+1",
+      "n": 200,
+      "successes": 163,
+      "success_rate": 0.815,
+      "success_ci": [
+        0.7554293723884824,
+        0.8626980719938395
+      ],
+      "lost_rate": 0.18,
+      "timeout_rate": 0.005,
+      "time_to_food_median_s": 7.1324000000000005,
+      "time_to_food_iqr_s": [
+        3.8544,
+        14.4245
+      ],
+      "path_efficiency_median": 0.3157750720436315,
+      "approach_index_mean": 0.23920859998905253,
+      "approach_index_ci": [
+        0.18074303774049694,
+        0.2956423170129279
+      ],
+      "speed_mean_mm_s": 11.087670180908509,
+      "speed_ci": [
+        11.056419754672598,
+        11.11831890749626
+      ],
+      "circling_rate": 0.015,
+      "steering_bias_mean_rad_s": 1.3520027353897577,
+      "steering_bias_ci": [
+        1.3099894922661688,
+        1.3944201696444634
+      ]
+    },
+    "P2s+2": {
+      "name": "P2s+2",
+      "n": 200,
+      "successes": 161,
+      "success_rate": 0.805,
+      "success_ci": [
+        0.7445595562538726,
+        0.8539447946559949
+      ],
+      "lost_rate": 0.19,
+      "timeout_rate": 0.005,
+      "time_to_food_median_s": 6.7437000000000005,
+      "time_to_food_iqr_s": [
+        3.8046,
+        13.2239
+      ],
+      "path_efficiency_median": 0.3352410136107723,
+      "approach_index_mean": 0.25373728064773693,
+      "approach_index_ci": [
+        0.19082082110087278,
+        0.31513089313371695
+      ],
+      "speed_mean_mm_s": 10.905979933176404,
+      "speed_ci": [
+        10.873368989753631,
+        10.937392019064644
+      ],
+      "circling_rate": 0.02,
+      "steering_bias_mean_rad_s": 1.2461298489171853,
+      "steering_bias_ci": [
+        1.206500039591145,
+        1.2851242913145782
+      ]
+    },
+    "P2s+3": {
+      "name": "P2s+3",
+      "n": 200,
+      "successes": 160,
+      "success_rate": 0.8,
+      "success_ci": [
+        0.7391448134346212,
+        0.8495479907390189
+      ],
+      "lost_rate": 0.2,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 8.890550000000001,
+      "time_to_food_iqr_s": [
+        4.289525,
+        15.03055
+      ],
+      "path_efficiency_median": 0.2612464664743658,
+      "approach_index_mean": 0.2063416428154433,
+      "approach_index_ci": [
+        0.14861707127123688,
+        0.2621377596729777
+      ],
+      "speed_mean_mm_s": 10.801880694550768,
+      "speed_ci": [
+        10.766827537169581,
+        10.834770908231187
+      ],
+      "circling_rate": 0.01,
+      "steering_bias_mean_rad_s": 1.1748971095864136,
+      "steering_bias_ci": [
+        1.138013948437118,
+        1.2122999959938012
+      ]
+    },
+    "P2s+4": {
+      "name": "P2s+4",
+      "n": 200,
+      "successes": 131,
+      "success_rate": 0.655,
+      "success_ci": [
+        0.5867558925905368,
+        0.7174020562325106
+      ],
+      "lost_rate": 0.345,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 6.9731000000000005,
+      "time_to_food_iqr_s": [
+        3.34685,
+        12.6041
+      ],
+      "path_efficiency_median": 0.3334833387575431,
+      "approach_index_mean": 0.133625619445196,
+      "approach_index_ci": [
+        0.06586939364575671,
+        0.2004751114437402
+      ],
+      "speed_mean_mm_s": 10.752846441022745,
+      "speed_ci": [
+        10.715668377434358,
+        10.78752060846893
+      ],
+      "circling_rate": 0.01,
+      "steering_bias_mean_rad_s": 1.1495392478063033,
+      "steering_bias_ci": [
+        1.1130622017516085,
+        1.186007334254283
+      ]
+    },
+    "P2s+6": {
+      "name": "P2s+6",
+      "n": 200,
+      "successes": 95,
+      "success_rate": 0.475,
+      "success_ci": [
+        0.4069162264657108,
+        0.5440260398531525
+      ],
+      "lost_rate": 0.525,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 4.935700000000001,
+      "time_to_food_iqr_s": [
+        3.1489000000000003,
+        10.541250000000002
+      ],
+      "path_efficiency_median": 0.46341976776767735,
+      "approach_index_mean": -0.009881383633049481,
+      "approach_index_ci": [
+        -0.08426081717155463,
+        0.06341134113498392
+      ],
+      "speed_mean_mm_s": 10.720358879860537,
+      "speed_ci": [
+        10.663638049985773,
+        10.775707165417517
+      ],
+      "circling_rate": 0.005,
+      "steering_bias_mean_rad_s": 0.9689752401236899,
+      "steering_bias_ci": [
+        0.9319381775265454,
+        1.0049752372576577
+      ]
+    },
+    "P3a": {
+      "name": "P3a",
+      "n": 200,
+      "successes": 146,
+      "success_rate": 0.73,
+      "success_ci": [
+        0.6645656480133157,
+        0.7867655018531416
+      ],
+      "lost_rate": 0.27,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 5.44215,
+      "time_to_food_iqr_s": [
+        2.0722,
+        12.868175
+      ],
+      "path_efficiency_median": 0.3058486276486889,
+      "approach_index_mean": 0.17543373781572527,
+      "approach_index_ci": [
+        0.11061836969183457,
+        0.24069788741764378
+      ],
+      "speed_mean_mm_s": 15.704779691109211,
+      "speed_ci": [
+        15.483429939689238,
+        15.918960504062204
+      ],
+      "circling_rate": 0.025,
+      "steering_bias_mean_rad_s": 0.8629818044641862,
+      "steering_bias_ci": [
+        0.8095921707566116,
+        0.9152432671297196
+      ]
+    },
+    "P3b": {
+      "name": "P3b",
+      "n": 200,
+      "successes": 14,
+      "success_rate": 0.07,
+      "success_ci": [
+        0.042152171828342806,
+        0.11405480885610647
+      ],
+      "lost_rate": 0.93,
+      "timeout_rate": 0.0,
+      "time_to_food_median_s": 3.0518,
+      "time_to_food_iqr_s": [
+        2.75475,
+        3.3976
+      ],
+      "path_efficiency_median": 0.8166555589609485,
+      "approach_index_mean": -0.4416250836769569,
+      "approach_index_ci": [
+        -0.4981310800850561,
+        -0.3824272621617269
+      ],
+      "speed_mean_mm_s": 9.979111106929006,
+      "speed_ci": [
+        9.95923317276696,
+        9.999486297171652
+      ],
+      "circling_rate": 0.0,
+      "steering_bias_mean_rad_s": 0.0,
+      "steering_bias_ci": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "verdicts": {
+    "P1": {
+      "m4_minus_blind_ci": [
+        -0.36125065177462734,
+        -0.25130028279391614
+      ],
+      "m4_below_blind": true,
+      "success_p": 6.103515625e-05,
+      "success_p_holm": 0.0001220703125,
+      "success_below_blind": true,
+      "pass": true
+    },
+    "P2": {
+      "speeds_by_dose": {
+        "P0": 11.317206702625986,
+        "P2+1": 9.487812918185456,
+        "P2+2": 7.965978459914809,
+        "P2+3": 6.602586378269707,
+        "P2+4": 5.506426043929741,
+        "P2+6": 3.890870834362736
+      },
+      "speed_falls_every_dose": true,
+      "trend_p": 0.983740274642425,
+      "trend_p_holm": 0.983740274642425,
+      "trend_significant": false,
+      "circling_rates": {
+        "P2+1": 0.0,
+        "P2+2": 0.005,
+        "P2+3": 0.01,
+        "P2+4": 0.015,
+        "P2+6": 0.01
+      },
+      "circling_below_5pct_every_dose": true,
+      "pass": false
+    },
+    "P2s": {
+      "trend_p": 1.5887009975413582e-28,
+      "trend_p_holm": 4.766102992624074e-28,
+      "pass": true
+    },
+    "P3a": {
+      "m4_minus_blind_ci": [
+        0.5442587397091041,
+        0.6866946246277038
+      ],
+      "m4_above_blind": true,
+      "success_p": 1.13266643671012e-35,
+      "success_p_holm": 4.53066574684048e-35,
+      "success_above_blind": true,
+      "pass": true
+    }
+  },
+  "baseline_passed_calibration": true
+}
